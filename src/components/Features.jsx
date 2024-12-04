@@ -136,7 +136,7 @@ export const BentoCard = ({ src, title, description, isComingSoon }) => {
               src="videos/feature2.mov"
               title={
                 <>
-                  zig<b>m</b>a
+                 Dynamic
                 </>
               }
               description="Get ready to rev up your engines and speed into the ultimate racing experience!."
@@ -149,7 +149,7 @@ export const BentoCard = ({ src, title, description, isComingSoon }) => {
               src="videos/feature3.mp4"
               title={
                 <>
-                  n<b>e</b>xus
+                 nexus
                 </>
               }
               description="A gamified social hub, adding a new dimension of play with the power of AI."
@@ -162,7 +162,7 @@ export const BentoCard = ({ src, title, description, isComingSoon }) => {
               src="videos/feature4.mp4"
               title={
                 <>
-                  az<b>u</b>l
+                  mobility
                 </>
               }
               description="A world class car experience - elevating your adrenaline to be more fun and wild."
