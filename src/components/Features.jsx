@@ -110,12 +110,10 @@ export const BentoCard = ({ src, title, description, isComingSoon }) => {
       <div className="container mx-auto px-3 md:px-10">
         <div className="px-5 py-32">
           <p className="font-circular-web text-lg text-blue-50">
-            Into the Metagame Layer
+            Into the TURBO Layer
           </p>
           <p className="max-w-md font-circular-web text-lg text-blue-50 opacity-50">
-            Immerse yourself in a rich and ever-expanding universe where a vibrant
-            array of products converge into an interconnected overlay experience
-            on your world.
+          Enter the Turbo Layer, where a rich and ever-expanding universe of interconnected products and experiences awaits.
           </p>
         </div>
   
@@ -124,10 +122,10 @@ export const BentoCard = ({ src, title, description, isComingSoon }) => {
             src="videos/feature-1.mp4"
             title={
               <>
-                radia<b>n</b>t
+                race
               </>
             }
-            description="A cross-platform metagame app, turning your activities across Web2 and Web3 games into a rewarding adventure."
+            description="A webiste that, turning your activities into thrilling racing events, into a rewarding adventure."
             isComingSoon
           />
         </BentoTilt>
@@ -141,7 +139,7 @@ export const BentoCard = ({ src, title, description, isComingSoon }) => {
                   zig<b>m</b>a
                 </>
               }
-              description="An anime and gaming-inspired NFT collection - the IP primed for expansion."
+              description="Get ready to rev up your engines and speed into the ultimate racing experience!."
               isComingSoon
             />
           </BentoTilt>
@@ -154,7 +152,7 @@ export const BentoCard = ({ src, title, description, isComingSoon }) => {
                   n<b>e</b>xus
                 </>
               }
-              description="A gamified social hub, adding a new dimension of play to social interaction for Web3 communities."
+              description="A gamified social hub, adding a new dimension of play with the power of AI."
               isComingSoon
             />
           </BentoTilt>
@@ -167,7 +165,7 @@ export const BentoCard = ({ src, title, description, isComingSoon }) => {
                   az<b>u</b>l
                 </>
               }
-              description="A cross-world AI Agent - elevating your gameplay to be more fun and productive."
+              description="A world class car experience - elevating your adrenaline to be more fun and wild."
               isComingSoon
             />
           </BentoTilt>
