@@ -63,7 +63,7 @@ const VideoPreview = ({ children }) => {
       onMouseMove={handleMouseMove}
       onMouseEnter={() => setIsHovering(true)}
       onMouseLeave={() => setIsHovering(false)}
-      className="absolute z-50 size-full overflow-hidden rounded-lg"
+      className="absolute z-50 w-full h-full overflow-hidden rounded-lg" // changed size-full to w-full h-full
       style={{
         perspective: "500px",
       }}
@@ -75,7 +75,7 @@ const VideoPreview = ({ children }) => {
           transformStyle: "preserve-3d",
         }}
       >
-        {children}
+        {children || <div className="bg-gray-200 w-full h-full">No content</div>}
       </div>
     </section>
   );
